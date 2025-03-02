@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoes Website | CodeVik </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="container">
+    <div class="navbar">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt=""/>
+        </a>
+        <ul id="sideMenu">
+            <li><a href="" class="active">Menu</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+       <div class="nav_btn">
+          <button class="login_btn">
+              Login
+          </button>
+          <button id="toggleBtn" class="toggle_btn">
+            <img src="images/bar-icon.svg" alt=""/>
+          </button>
+       </div>
+
+    </div>
+
+    <div class="bottom_content">
+        <div class="bottom_left">
+            <h1>Your feet deserve the best</h1>
+            <p>Our footwear combines luxurious comfort with cutting-edge design, offering perfect cushioning and support for every step, day or night.</p>
+            <div class="btn_sec">
+                <button>Shop Now</button>
+                <button>Category</button>
+            </div>
+        </div>
+        <div class="bottom_right">
+            <img src="images/bg-effact.png" alt="" class="bg_effact"/>
+            <img src="images/shoes3 (1).png" alt="" class="shoes_img"/>
+        </div>
+    </div>
+
+   </div>
+
+   <script>
+    var toggleBtn = document.getElementById("toggleBtn");
+    var sideMenu = document.getElementById("sideMenu");
+
+    toggleBtn.addEventListener('click', () => {
+        sideMenu.classList.toggle('active');
+    });
+   </script>
+</body>
+</html>

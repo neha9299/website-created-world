@@ -1,0 +1,10 @@
+# Attempting an alternative way to generate and save the PDF
+
+try:
+    pdf.output("/mnt/data/Movie_Seat_Booking_Report.pdf")
+    pdf_success = True
+except Exception as e:
+    pdf_success = False
+    error_message = str(e)
+
+pdf_success

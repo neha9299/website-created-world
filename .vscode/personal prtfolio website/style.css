@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url('Link_Eat_Love_Kill-9_1654624157.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+header .logo{
+    font-size: 45px;
+    font-weight:700;
+    letter-spacing: 1px;
+    color: #7f55af;
+}
+
+header nav {
+    margin-left: 50px;
+}
+
+header nav a { 
+    position: relative;
+    font-size: 19px; 
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding: 8px; 
+    color: white;
+    letter-spacing: 0.8px; 
+    transition: 0.3s ease-in-out; 
+    border-bottom: solid transparent 3px; 
+}
+
+header nav a:hover {
+    color: #3f1ad2;
+    border-bottom: solid #231bc0 3px;
+}
+
+.icon a {
+    font-size: 22px;
+    color: white;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.icon a:hover{
+    color: #ffc400;
+}
+
+section {
+    padding: 4% 6% 0;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .contact h4{
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.home .contact h1 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.contact h1 span{
+    font-size: 62px;
+    font-weight: 700;
+    color: #00f7ff; 
+}
+
+.contact h1 span{
+    font-size: 62px;
+    font-weight: 700;
+    color: #00f7ff; 
+}
+
+.contact p{
+    font-size: 17px;
+    color: #eee;
+    line-height: 1.8;
+    margin: 20px 0 35px;
+}
+
+.home .button a{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 22px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.home .button .btn2{
+    background-color: #00f7ff;
+    border: 2px solid #00f7ff;
+    color: #202020;
+}
+
+.home .social{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.home .social a{
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px #fff;
+}
+
+.home .social a:hover {
+    transform: scale(1.1);
+}

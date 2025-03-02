@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Ticket Booking</h1>
+    </header>
+    <main>
+        <section class="movies">
+            <h2>Select a Movie</h2>
+            <ul id="movie-list">
+                <li data-movie="Inception">Inception</li>
+                <li data-movie="Interstellar">Interstellar</li>
+                <li data-movie="Avengers">Avengers</li>
+            </ul>
+        </section>
+        <section class="booking-form">
+            <h2>Book Your Ticket</h2>
+            <form id="booking-form">
+                <label for="movie">Movie:</label>
+                <input type="text" id="movie" name="movie" readonly>
+                
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="seats">Number of Seats:</label>
+                <input type="number" id="seats" name="seats" min="1" required>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section id="confirmation" class="hidden">
+            <h2>Booking Confirmation</h2>
+            <p id="confirmation-message"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

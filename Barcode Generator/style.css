@@ -1,0 +1,47 @@
+*{ 
+    padding: 0; 
+     margin: 0; 
+      font-family: 'roboto', sans-serif;
+       box-sizing: border-box; 
+ }
+body {
+    background: #e800fd;
+
+}
+
+.container {
+    background-color: #ffffff;
+    inline-size: min(500px, 90vw);
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    padding: 3rem;
+
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2cm;
+    margin-block-start: 1em; 
+}
+
+input{
+    inline-size: 60%;
+    padding: 1em;
+    border: 2px solid #222;
+    outline: none;
+    border-radius :10px;
+}
+
+button {
+    background:#e800fd;
+     color: #fff; 
+     border: none;
+      outline: none; 
+    inline-size: 38%; 
+    padding: 1em; 
+     font-size: 0.8em; 
+     border-radius: 0.7em;
+
+}
